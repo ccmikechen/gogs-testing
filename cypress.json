@@ -1,0 +1,4 @@
+{
+  "baseUrl": "https://try.gogs.io",
+  "testFiles": "**/*.{feature,features}"
+}

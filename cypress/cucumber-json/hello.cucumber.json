@@ -1,0 +1,43 @@
+[
+  {
+    "description": "  As an user\n  I want to open login page\n  So that I can login",
+    "keyword": "Feature",
+    "name": "Login page",
+    "line": 1,
+    "id": "login-page",
+    "tags": [],
+    "uri": "hello.feature",
+    "elements": [
+      {
+        "id": "login-page;opening-login-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Opening login page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I open the login page",
+            "result": {
+              "status": "passed",
+              "duration": 942000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see \"Sign In\"",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

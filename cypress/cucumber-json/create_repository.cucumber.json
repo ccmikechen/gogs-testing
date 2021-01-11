@@ -1,0 +1,73 @@
+[
+  {
+    "description": "  As a user\n  I want to create a repository",
+    "keyword": "Feature",
+    "name": "Create repository",
+    "line": 1,
+    "id": "create-repository",
+    "tags": [],
+    "uri": "create_repository.feature",
+    "elements": [
+      {
+        "id": "create-repository;create-a-repository-successfully",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Create a repository successfully",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I login to the account",
+            "result": {
+              "status": "passed",
+              "duration": 7443000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I open New Repository page",
+            "result": {
+              "status": "passed",
+              "duration": 462000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I fill the new repository form",
+            "result": {
+              "status": "passed",
+              "duration": 363000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click \"Create Repository\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I see the new repository page",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
